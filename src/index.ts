@@ -60,7 +60,6 @@ export default {
 			redirect: request.redirect,
 			body: bodyInfo,
 			bodyText: await request.text(),
-			
 		};
 
 		return new Response(JSON.stringify(data, null, 2), {
